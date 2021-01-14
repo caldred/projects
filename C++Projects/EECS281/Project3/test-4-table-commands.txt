@@ -1,0 +1,33 @@
+CREATE table 1 int int
+INSERT INTO table 3 ROWS
+5
+3
+9
+GENERATE FOR table bst INDEX ON int
+REMOVE table
+GENERATE FOR table hash INDEX on int
+PRINT FROM table 1 int ALL
+DELETE FROM table WHERE int > 0
+REMOVE table2
+CREATE table2 1 double double
+INSERT INTO table 2 ROWS
+5
+3
+CREATE table3 1 bool bool
+INSERT INTO table2 2 ROWS
+5.7
+66.366
+PRINT FROM table2 1 double
+JOIN table and table3 where int = bool AND PRINT 1 int 1
+REMOVE table2
+REMOVE table3
+JOIN table and table3 where int = bool AND PRINT 1 int 1
+CREATE table 1 int int
+INSERT INTO table 3 ROWS
+1
+2
+3
+PRINT FROM table 1 int WHERE int > 0
+GENERATE FOR table ind
+REMOVE table
+QUIT

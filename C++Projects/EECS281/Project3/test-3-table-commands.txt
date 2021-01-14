@@ -1,0 +1,36 @@
+CREATE table 4 bool int double string bool int double string
+INSERT INTO table 3 ROWS
+true 4 5.6 a
+false 6 4.4 b
+true 4 5.6 a 
+DELETE FROM table WHERE int > 7
+GENERATE FOR table hash INDEX ON int
+PRINT FROM table 4 bool int double string ALL
+CREATE table2 4 bool int double string bool int double string
+INSERT INTO table2 3 ROWS
+true 4 5.6 a
+false 8 4.4 c
+false 6 5.1 e
+DELETE FROM table WHERE bool = false
+GENERATE FOR table2 bst INDEX ON double
+PRINT FROM table2 4 bool int double string WHERE double > 0
+JOIN table AND table2 WHERE bool = bool AND PRINT 6 int 1 int 2 double 1 double 2 string 2 string 1
+CREATE table3 bool 4 bool int double string bool int double string
+INSERT INTO table3 1 ROWS
+true 235 264.66 dundundun
+DELETE FROM table2 WHERE double < 5.1
+GENERATE FOR table hash INDEX ON bool
+PRINT FROM table2 4 bool int double string WHERE double < 5.1
+JOIN table3 AND table WHERE bool = bool AND PRINT 6 int 1 int 2 double 1 double 2 string 2 string 1
+REMOVE table3
+INSERT INTO table 3 ROWS
+false 1 8.4 f
+false -76 5.6 g 
+false -4 -9.3 h
+DELETE FROM table WHERE string < c
+GENERATE FOR table bst INDEX ON int 
+PRINT FROM table 3 string double bool WHERE int < 7
+JOIN table2 AND table wHERE double = double AND PRINT 6 int 1 int 2 bool 1 bool 2 string 2 string 1
+REMOVE table
+REMOVE table2
+QUIT

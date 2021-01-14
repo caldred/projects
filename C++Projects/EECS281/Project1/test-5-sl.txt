@@ -1,0 +1,9 @@
+M
+2
+2
+//castle room 0
+S.
+C.
+//castle room 1
+..
+i!

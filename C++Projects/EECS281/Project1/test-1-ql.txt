@@ -1,0 +1,16 @@
+M
+3
+3
+//
+//castle room 0
+S.2
+...
+2.2
+//castle room 1
+.C.
+.22
+...
+//castle room 2
+...
+000
+..1

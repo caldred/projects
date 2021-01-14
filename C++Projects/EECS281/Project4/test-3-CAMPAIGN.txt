@@ -1,0 +1,9 @@
+Number of states (N): 6
+Total budget (B): $100
+$41 5
+$58 59
+$61 63
+$56 4
+$67 17
+$13 1
+

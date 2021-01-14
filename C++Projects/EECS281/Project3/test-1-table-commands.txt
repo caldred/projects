@@ -1,0 +1,35 @@
+CREATE 281class 4 string string bool int emotion person Y/N num
+INSERT INTO 281class 8 ROWS
+happy Darden true 24
+stressed students false 67
+busy office_hours true 33
+stressed students true 6
+stressed Paoletti true 732
+happy Darden true 6
+happy Sith true 9
+victorious Sith true 2
+DELETE FROM 281class WHERE person = Darden
+GENERATE FOR 281class hash INDEX ON emotion
+PRINT FROM 281class 2 person emotion WHERE Y/N = true
+INSERT INTO 281class 4 ROWS
+angry person true 985
+happy Paoletti false 44
+sad Tim true 246
+stressed office_hours false 88
+GENERATE FOR 281class bst INDEX ON person
+PRINT FROM 281class 3 person emotion person WHERE person = Paoletti
+GENERATE FOR 281class bst INDEX ON emotion
+PRINT FROM 281class 2 Y/N person ALL
+DELETE FROM 281class WHERE emotion = happy
+PRINT FROM 281class 3 person emotion Y/N ALL
+GENERATE FOR 281 class hash INDEX ON num
+PRINT FROM 281class 1 num WHERE num = 6
+INSERT INTO 281class 2 ROWS
+upset person false 77
+sing Tim true 6
+PRINT FROM 281class 4 num Y/N person emotion WHERE emotion > a
+PRINT FROM 281class 4 num Y/N person emotion WHERE person < z
+PRINT FROM 281class 4 num Y/N person emotion WHERE num > 0
+PRINT FROM 281class 4 num Y/N person emotion WHERE num = 6
+REMOVE 281class
+QUIT
