@@ -9,8 +9,11 @@ A collection of projects written in C++ for my computer science classes in under
 The goal of this project is to build an autoencoder for Magic the Gathering decks. This would allow for the creation of embeddings both for decks as a whole, as well as embeddings for individual cards from the weight matrices of the first and last layers.
 
 `Scraper.ipynb` scrapes all the decks from `MTGGoldfish.com` since the beginning of the Pioneer format (~1E4 decks or ~1E6 cards).
+
 `Parser.ipynb` converts all those text decklists into n-hot encoded vectors (where n- is the number of times that card appears in that deck).
+
 `Autoeconder.ipynb` implements a FNN in pytorch that attempts to recreate the original vectorized representation of the decklist after compressing it to a vector of length 32.
+
 `ExploreEmbeddingSimilarity.ipynb` takes a look at the most similar cards to each card in both the encoder and decoder embedding space.
 
 ## PitchModels
